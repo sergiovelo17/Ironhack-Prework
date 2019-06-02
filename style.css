@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  display: flex;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  flex: 1;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-left{
+flex: 1;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#heart{
+ margin: 0 15px;
+}
+.clearfix{
+  clear: both;
+}
+.header{
+  Background: rgb(32, 101, 136);
+  background-image: url("city-scape.svg");
+  background-size: cover;
+  position: relative;
+  color: white;
+  height: 400px;
+}
+.searchbar{
+  padding: 15px 10px 0 10px;
+  }
+.searchbar input{
+  width: 650px;
+  height: 75%;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+}
+.searchbar button{
+  height: 75%;
+  padding: 10px;
+  background-color: rgb(31, 82, 111);
+  margin-right: 5px;
+  border: 1px solid grey;
+}
+.searchbar ul{
+  display: inline-block;
+}
+.left{
+  float: left;
+}
+.searchbar li a{
+  color: white;
+  text-decoration: none;
+}
+.searchbar li{
+  display: inline-block;
+  padding: 5px 0px 15px 5px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.seconddiv{
+  width: 450px;
+  margin: 0 auto;
+}
+.bodytext{
+  position: relative;
+  right: 150px;
+}
+.bodytext h2{
+  padding: 10px 0;
+  text-align: left;
+  font-size: 30px;
+}
+.bodytext p{
+  padding: 10px 0;
+}
+.bodytext button{
+  background-color: rgb(240, 146, 51);
+  padding: 5px;
+  color: white;
+  border-radius: 25px;
+  border-color: none;
+}
+.orgs-body{
+  background-color: rgb(39,53,71);
+  color: white;
+  margin: 0 auto;
+  padding: 100px;
+}
+.orgs-body img{
+  width: 40%;
+}
+.right{
+  float: right;
+}
+.right h2{
+  padding: 10px;
+  width: 60%;
+}
+.right ul{
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+.right li{
+  padding: 5px 0;
+}
+.right button{
+  background-color: rgb(203, 56, 55);
+  padding: 10px;
+  color: white;
+  border-radius: 25px;
+}
+.right a{
+  text-decoration: none;
+  color: white;
+}
+#whatis{
+  background-image: url("forklift.svg");
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+.about{
+  position: absolute;
+  color: white;
+  top: 100px;
+  left: 120px;
+  width: 300px;
+  height: 300px;
+}
+.about h2{
+  padding-bottom: 20px;
+}
+.about p{
+  padding-bottom: 20px;
+}
+.about button{
+  background-color: rgb(49,68,88);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 25px;
+  width: 120px;
+}
+.you{
+  margin: 0 auto;
+  text-align: center;
+}
+.you h2{
+  padding: 40px 0 20px 0;
+  color: rgb(83,88,98);
+}
+.you p{
+  color: rgb(135, 145, 156);
+  padding-bottom: 20px;
+}
+.image-container{
+  width: 33%;
+  float: left;
+}
+.three-logos{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 80px 40px 80px;
+}
+.three-logos a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+
+
